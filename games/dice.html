@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Play Free Dice Game Online — Pick a Number | Aurelia Casino</title>
+  <meta name="description" content="Play a free online dice game in your browser. Pick a number, roll two dice, and win virtual credits based on clear payout rules. No download, no sign-up, instant play.">
+  <meta name="keywords" content="free online dice game, roll dice online, pick a number dice game, browser dice game, no download dice, instant dice game, free casino dice">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#0a0e17">
+  <link rel="canonical" href="https://vip-4.github.io/aurelia-casino/games/dice.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Aurelia Casino">
+  <meta property="og:title" content="Play Free Dice Game Online — Aurelia Casino">
+  <meta property="og:description" content="Pick a number and roll two dice in a fast, free browser game with clear payout rules.">
+  <meta property="og:url" content="https://vip-4.github.io/aurelia-casino/games/dice.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Play Free Dice Game Online — Aurelia Casino">
+  <meta name="twitter:description" content="A simple, fast dice game you can play instantly in your browser. No download, no account.">
+
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://vip-4.github.io/aurelia-casino/games/dice.html#webpage",
+        "url": "https://vip-4.github.io/aurelia-casino/games/dice.html",
+        "name": "Free Online Dice Game — Pick a Number",
+        "description": "A free, lightweight two-dice game playable instantly in the browser.",
+        "isPartOf": { "@id": "https://vip-4.github.io/aurelia-casino/#website" }
+      },
+      {
+        "@type": "VideoGame",
+        "name": "Aurelia Dice",
+        "description": "A lightweight browser dice game where players pick a number and roll two dice.",
+        "genre": ["Casino", "Dice Game"],
+        "playMode": "SinglePlayer",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Any (web browser)",
+        "url": "https://vip-4.github.io/aurelia-casino/games/dice.html",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vip-4.github.io/aurelia-casino/" },
+          { "@type": "ListItem", "position": 2, "name": "Dice", "item": "https://vip-4.github.io/aurelia-casino/games/dice.html" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How do you play the dice game?", "acceptedAnswer": { "@type": "Answer", "text": "Choose a number from 1 to 6, set your bet, and roll two dice. If your chosen number appears on either die, you win. If it appears on both dice, you win a larger payout." } },
+          { "@type": "Question", "name": "What are the dice payouts?", "acceptedAnswer": { "@type": "Answer", "text": "If your number appears on one die, you win 2x your bet. If it appears on both dice, you win 5x your bet. If it does not appear, you lose your bet." } },
+          { "@type": "Question", "name": "Is the dice game free to play?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The game uses virtual play credits only, requires no real money, and needs no download or account." } }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-page="game" data-game="dice">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../" aria-label="Aurelia Casino home">
+        <span class="brand-mark" aria-hidden="true">A</span>Aurelia <span>Casino</span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <a href="../">Home</a>
+        <a href="../#games">Games</a>
+        <a href="../#how-it-works">How It Works</a>
+        <a href="../#faq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-outline btn-sm" href="../#games">All Games</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="game-shell">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../">Home</a><span aria-hidden="true">/</span><span aria-current="page">Dice</span>
+      </nav>
+
+      <header class="game-head">
+        <span class="eyebrow">Two dice · Quick rounds</span>
+        <h1>Free Online Dice Game</h1>
+        <p>Pick a number from 1 to 6 and roll. Match one die to win, match both for a bigger payout.</p>
+      </header>
+
+      <div class="game-layout">
+        <section class="panel" aria-labelledby="dice-heading">
+          <h2 class="sr-only" id="dice-heading">Dice game</h2>
+
+          <div class="bankroll" style="margin-bottom:1.5rem">
+            <div>
+              <div class="balance-label">Play balance</div>
+              <div class="balance-value" id="balance">1,000</div>
+            </div>
+            <button class="btn btn-ghost btn-sm" id="reset-balance" type="button">Reset balance</button>
+          </div>
+
+          <div class="stage">
+            <div style="width:100%;position:relative;z-index:1;text-align:center">
+              <div class="dice-row" id="dice-row" aria-label="Two dice">
+                <div class="die" id="die-0"></div>
+                <div class="die" id="die-1"></div>
+              </div>
+              <p class="message" id="message" role="status" aria-live="polite" style="margin-top:1.5rem">Pick a number and roll the dice.</p>
+            </div>
+          </div>
+
+          <div style="margin-top:1.5rem">
+            <div class="field">
+              <label for="pick-number">Your number (1–6)</label>
+              <select id="pick-number">
+                <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bet-amount">Bet amount (credits)</label>
+              <input type="number" id="bet-amount" min="1" max="500" value="10" step="1" inputmode="numeric">
+            </div>
+            <div class="btn-row">
+              <button class="btn btn-primary" id="roll-btn" type="button">Roll the dice</button>
+              <button class="btn btn-ghost" id="max-bet" type="button">Max bet</button>
+            </div>
+            <div class="stat-grid">
+              <div class="stat"><b id="stat-rolls">0</b><span>Rolls</span></div>
+              <div class="stat"><b id="stat-wins">0</b><span>Wins</span></div>
+              <div class="stat"><b id="stat-best">0</b><span>Best win</span></div>
+            </div>
+            <p class="notice">Entertainment only. Uses virtual play credits — no real money, no wagering. <a href="#rules" style="color:var(--gold-soft)">See payout rules</a>.</p>
+          </div>
+        </section>
+
+        <aside style="display:grid;gap:1.5rem">
+          <section class="panel" id="rules" aria-labelledby="rules-heading">
+            <h2 class="panel-title" id="rules-heading">Payout rules</h2>
+            <ul class="rules-list">
+              <li>Pick a number from <strong>1 to 6</strong> and roll two dice.</li>
+              <li>Your number on <strong>one die</strong> — win 2&times; your bet.</li>
+              <li>Your number on <strong>both dice</strong> — win 5&times; your bet.</li>
+              <li>No match — you lose your bet.</li>
+              <li>Every roll is random and independent.</li>
+            </ul>
+          </section>
+          <section class="panel" aria-labelledby="quick-heading">
+            <h2 class="panel-title" id="quick-heading">More games</h2>
+            <div style="display:grid;gap:.7rem">
+              <a class="btn btn-ghost btn-sm" href="slots.html">Play Slots &rarr;</a>
+              <a class="btn btn-ghost btn-sm" href="blackjack.html">Play Blackjack &rarr;</a>
+              <a class="btn btn-ghost btn-sm" href="../#games">All games &rarr;</a>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      <section class="section-sm" aria-labelledby="about-dice">
+        <h2 id="about-dice" style="font-size:1.6rem">About this dice game</h2>
+        <p style="color:var(--text-muted);max-width:760px">This free dice game is a lightweight browser game built with plain HTML, CSS, and JavaScript. Players select a number between one and six, place a virtual bet, and roll two dice. If the chosen number lands on one die the player wins twice the bet; if it lands on both dice the payout is five times the bet. The rules are short and transparent, making this an approachable choice for new players and a quick-round option for experienced ones. No download, registration, or real money is required, and the game works across desktop and mobile devices.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>&copy; 2026 Aurelia Casino. Free, lightweight, instant play.</span>
+      <a href="../" style="color:var(--text-muted)">Back to home</a>
+    </div>
+  </footer>
+
+  <script src="../assets/js/site.js" defer></script>
+  <script src="../assets/js/games.js" defer></script>
+</body>
+</html>
