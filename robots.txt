@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://vip-4.github.io/aurelia-casino/sitemap.xml
